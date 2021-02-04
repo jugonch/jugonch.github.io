@@ -1,18 +1,16 @@
-/* Cornell's colors are #B31B1B (red), #222222 (dark grey), and #F7F7F7 (light grey) with accent colors #006699 (blue) or #4B7B2B (green) (https://brand.cornell.edu/design-center/colors/)
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*my site*/
 
 @font-face {
-    font-family: 'Avenir Book';
-    src: url('fonts/Avenir-Book.eot');
-    src: url('fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Avenir-Book.woff') format('woff'),
-    url('fonts/Avenir-Book.ttf') format('truetype');
+    font-family: 'Lato';
+    src: url('fonts/Lato-Regular.ttf');
+    //src: url('fonts/Avenir-Book.eot?#iefix') format('embedded-opentype'),
+    //url('fonts/Avenir-Book.woff') format('woff'),
+    url('Lato/Lato-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-/* General styling
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* general styling */
 
 html {
     padding-bottom: 50px;
@@ -21,9 +19,7 @@ html {
 body {
     margin: 8px 0px;
     width: 100%;
-    font-family: 'Avenir'; 
-    /* font-family: 'Lato', sans-serif; */
-    /*  font-family: 'Open Sans', sans-serif; */
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-size: 14px;
     font-weight: 300;
@@ -32,7 +28,7 @@ body {
 
 a {
     font-weight: 400;
-    color: #006699;
+    color: #000000;
     text-decoration: none;
     border-bottom: 1px solid;
 }
@@ -42,7 +38,7 @@ a:hover {
 }
 
 table.reg tr {
-    text-align: center;
+    text-align: left;
 }
 
 table.reg th {
@@ -132,11 +128,10 @@ img.resize {
     content: "\2022"; 
 }
 
-/* Navigation menu
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* navigation menu */
 
 #nav {
-    text-align: center;
+    text-align: left;
 }
 
 #nav ul {
