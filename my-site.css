@@ -54,6 +54,13 @@ hr {
     border-width: 0.5px;
 }
 
+h1 {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic; 
+}
+
+
 .alert {
     color: #B31B1B;
 }
